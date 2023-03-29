@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/Portfolio_with_React/static/css/main.66bdaba0.css",
-    "main.js": "/Portfolio_with_React/static/js/main.f66cc790.js",
+    "main.js": "/Portfolio_with_React/static/js/main.1239fdf5.js",
+    "static/media/Django Resume.pdf": "/Portfolio_with_React/static/media/Django Resume.b6f55536a043c2b988e0.pdf",
+    "static/media/webResult.JPEG": "/Portfolio_with_React/static/media/webResult.2c1d5b6e10f6e160cea1.JPEG",
     "static/media/saira-semi-condensed-all-600-normal.woff": "/Portfolio_with_React/static/media/saira-semi-condensed-all-600-normal.af2ea2213c9fd134ab39.woff",
     "static/media/saira-semi-condensed-all-400-normal.woff": "/Portfolio_with_React/static/media/saira-semi-condensed-all-400-normal.2248cc2ca7f25d0c9f0a.woff",
     "static/media/saira-all-600-normal.woff": "/Portfolio_with_React/static/media/saira-all-600-normal.8ab9dc89091eca9e6bc6.woff",
@@ -16,10 +18,10 @@
     "static/media/saira-vietnamese-600-normal.woff2": "/Portfolio_with_React/static/media/saira-vietnamese-600-normal.7351d7d4c43c6f868fae.woff2",
     "index.html": "/Portfolio_with_React/index.html",
     "main.66bdaba0.css.map": "/Portfolio_with_React/static/css/main.66bdaba0.css.map",
-    "main.f66cc790.js.map": "/Portfolio_with_React/static/js/main.f66cc790.js.map"
+    "main.1239fdf5.js.map": "/Portfolio_with_React/static/js/main.1239fdf5.js.map"
   },
   "entrypoints": [
     "static/css/main.66bdaba0.css",
-    "static/js/main.f66cc790.js"
+    "static/js/main.1239fdf5.js"
   ]
 }
