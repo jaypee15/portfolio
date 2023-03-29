@@ -5,6 +5,10 @@ import {
   JSIcon,
   ReactIcon,
   DjangoIcon,
+  PythonIcon,
+  PostgreSQLIcon,
+  LinuxIcon,
+  GitIcon,
 } from "./svgs";
 
 const stackArray = [
@@ -13,6 +17,12 @@ const stackArray = [
   "Javascript",
   "ReactJS",
   "Django",
+  "Python",
+  "PostgreSQL",
+  "Linux",
+  "Git",
+  
+
 ];
 const Stack = ({ type }) => {
   return (
@@ -26,6 +36,18 @@ const Stack = ({ type }) => {
       ) 
       : type === "ReactJS" ? (
         <ReactIcon />
+      ) 
+      : type === "Python" ? (
+        <PythonIcon />
+      ) 
+      : type === "PostgreSQL" ? (
+        <PostgreSQLIcon />
+      ) 
+      : type === "Linux" ? (
+        <LinuxIcon />
+      ) 
+      : type === "Git" ? (
+        <GitIcon />
       ) 
       
        : (

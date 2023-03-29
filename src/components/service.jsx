@@ -28,12 +28,12 @@ export const ServiceCards = () => {
       <ServiceCard
         type="design"
         title="Web Design"
-        desc="Modern, visually appealing and responsive website designs for various screen sizes"
+        desc="Modern, visually appealing and responsive website designs for various screen sizes."
       />
       <ServiceCard
         type="frontend"
         title="Front-End Development"
-        desc="Build interactive UI from designs while optimizing for performance. Integrate Backend APIs"
+        desc="Build interactive UI from designs while optimizing for performance. Integrate Backend APIs."
       />
       <ServiceCard
         type="backend"

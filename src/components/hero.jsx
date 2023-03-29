@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Resume from "../assets/Django Resume.pdf";
+import portrait from "../assets/webResult.JPEG";
 import {
   TwitterIcon,
   MailIcon,
@@ -57,7 +59,7 @@ const Hero = () => {
           </p>
         </div>
         <a
-          href="../../../dist/Django Resume.pdf"
+          href={Resume}
           className="hero-sub-1-resume"
           download
         >
@@ -85,7 +87,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="hero-sub-2">
-        <img src="../../../dist/webResult.JPEG" alt="avatar_jaypee" />
+        <img src={portrait} alt="avatar_jaypee" />
       </div>
     </div>
   );
