@@ -4,8 +4,9 @@ import React from "react";
 export const LoycyImg = () => (
   <img src="/my-portfolio/loycy-engineering.jpg" alt="loycy-engineering screenshot" />
 );
-export const ExbImg = () => (
-  <img src="/my-portfolio/excellent-bridge-website-screenshot.jpg" alt="Excellent bridge website screenshot" />
+export const StudyroomsImg = () => (
+  <img src="../assets/Study Rooms home.png" alt="Study Rooms web app homepage" />
+
 );
 export const QuickrpayImg = () => (
   <img src="/my-portfolio/quickr-pay-screenshot.jpg" alt="quickr-pay screenshot" />

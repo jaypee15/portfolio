@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Resume from "../assets/Django Resume.pdf";
-import portrait from "../assets/webResult.JPEG";
+import portrait from "../assets/image (1).png";
 import {
   TwitterIcon,
   MailIcon,

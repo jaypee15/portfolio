@@ -2,6 +2,7 @@ import React from "react";
 import {
     LoycyImg,
   ExbImg,
+  StudyroomsImg,
  
     ChatboxxImg,
     TweeterImg,
@@ -56,23 +57,23 @@ const ProjectCard = ({
 export const ProjectCards = () => {
   const projects=[
   {
-    image:<ExbImg/>,
-    type:"excellent-bridge",
-    title:"Excellent Bridge Website Redesign",
-    desc:"",
-    tags:["Tailwindcss", "PHP", "Laravel"],
-    demoUrl:"https://excellentbridge.com/",
-    codeUrl:"#",
+    image:<StudyroomsImg/>,
+    type:"study rooms",
+    title:"Study Rooms social media app",
+    desc:"social Media app for studets looking for study partners",
+    tags:["DJango", "Python", "SQLite3"],
+    demoUrl:"https://study-rooms.onrender.com",
+    codeUrl:"https://github.com/jaypee15/study_rooms",
   },
   
   {
     image:<LoycyImg/>,
-    type:"loycy-engineering",
-    title:"Loycy Engineering",
-    desc:"Website redesign for Loycy Investment Company",
-    tags:["NextJS", "Tailwindcss"],
-    demoUrl:"https://loycy-engineering.vercel.app/",
-    codeUrl:"#",
+    type:"chatbot",
+    title:"Django AI assistant",
+    desc:"Chatbot and AI assistant built on the Openai API",
+    tags:["Django", "Python", "GPT-3.5-turbo"],
+    demoUrl:"https://django-chatapp-wm7h.onrender.com/",
+    codeUrl:"https://github.com/jaypee15/django-chatbot",
   },
  
   {
