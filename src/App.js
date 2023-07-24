@@ -22,10 +22,10 @@ function App() {
   function sCounterHandler(e) {
     const width = e.target.scrollWidth - e.target.clientWidth;
     const position = e.target.scrollLeft;
-    const percentage = Math.floor((position / width) * 5 + 1);
+    const percentage = Math.floor((position / width) * 3);
     setTimeout(() => {
-      if (percentage > 5) {
-        setSCardCounter(5);
+      if (percentage > 4) {
+        setSCardCounter(4);
       } else {
         setSCardCounter(percentage);
       }
@@ -34,10 +34,10 @@ function App() {
   function pCounterHandler(e) {
     const width = e.target.scrollWidth - e.target.clientWidth;
     const position = e.target.scrollLeft;
-    const percentage = Math.floor((position / width) * 14);
+    const percentage = Math.floor((position / width) * 6);
     setTimeout(() => {
-      if (percentage > 13) {
-        setPCardCounter(14);
+      if (percentage > 5) {
+        setPCardCounter(6);
       } else {
         setPCardCounter(percentage+1);
       }
