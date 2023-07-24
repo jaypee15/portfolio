@@ -22,9 +22,9 @@ function App() {
   function sCounterHandler(e) {
     const width = e.target.scrollWidth - e.target.clientWidth;
     const position = e.target.scrollLeft;
-    const percentage = Math.floor((position / width) * 2 + 1);
+    const percentage = Math.floor((position / width) * 3 + 1);
     setTimeout(() => {
-      if (percentage > 2) {
+      if (percentage > 3) {
         setSCardCounter(3);
       } else {
         setSCardCounter(percentage);
