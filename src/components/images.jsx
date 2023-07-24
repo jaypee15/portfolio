@@ -17,8 +17,8 @@ export const QuickrpayDashboardImg = () => (
 export const TweeterImg = () => (
   <img src="/my-portfolio/tweeter.jpg" alt="tweeter screenshot" />
 );
-export const ChatboxxImg = () => (
-  <img src="/my-portfolio/chatboxx.jpg" alt="chatboxx screenshot" />
+export const LuxovantImg = () => (
+  <img src="/portfolio/luxovant-screenshot.png" alt="chatboxx screenshot" />
 );
 export const EdieImg = () => (
   <img src="/my-portfolio/edie.jpg" alt="edie homepage" />

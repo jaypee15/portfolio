@@ -4,7 +4,7 @@ import {
   ExbImg,
   StudyroomsImg,
  
-    ChatboxxImg,
+    LuxovantImg,
     TweeterImg,
     SimplePlaylistImg,
     PortfolioImg,
@@ -77,13 +77,13 @@ export const ProjectCards = () => {
   },
  
   {
-    image:<ChatboxxImg/>,
-    type:"chatboxx",
-    title:"",
-    desc:"A chat app where users can send and receive direct or group messages",
-    tags:["MERN", "Socket.io", "Cloudinary"],
-    demoUrl:"https://chatboxx.onrender.com/login",
-    codeUrl:"https://github.com/chifarol/chatboxx",
+    image:<LuxovantImg/>,
+    type:"Luxovant",
+    title:"News/content aggregator",
+    desc:"Luxovant is a platform that keeps you in the loop without the hassle of scouring the web for the latest news. it uses RSS feeds and a bit of scraping to get relevant content for entrepreneurs.",
+    tags:["Django", "React", "FeedParser", ],
+    demoUrl:"https://github.com/jaypee15/lux-rss",
+    codeUrl:"https://github.com/jaypee15/lux-rss",
   },
  
   {
@@ -93,7 +93,7 @@ export const ProjectCards = () => {
         desc:"An AirBnB inspired website demo.",
         tags:["React"],
         demoUrl:"https://csb-jgr6d1.netlify.app/",
-        codeUrl:"https://github.com/chifarol/WindBnB",
+        codeUrl:"https://github.com/jaypee15/lux-rss",
   },
   {
     image:<HuddleImg/>,
@@ -101,8 +101,8 @@ export const ProjectCards = () => {
         title:"Huddle Landing Page demo",
         desc:"Huddle Landing page clone",
         tags:["HTML", "CSS"],
-        demoUrl:"https://chifarol.github.io/zuri-wk5-Task-2-Hubble/",
-        codeUrl:"https://github.com/chifarol/zuri-wk5-Task-2-Hubble",
+        demoUrl:"https://github.com/jaypee15/lux-rss",
+        codeUrl:"https://github.com/jaypee15/lux-rss",
   },
  
   {
@@ -111,8 +111,8 @@ export const ProjectCards = () => {
         title:"Checkout Page",
         desc:"Checkout page for a fictional E-Commerce site",
         tags:["HTML", "CSS"],
-        demoUrl:"https://chifarol.github.io/devChallenges-Responsive-Design-Task-6---Checkout-Page/",
-        codeUrl:"https://github.com/chifarol/devChallenges-Responsive-Design-Task-6---Checkout-Page",
+        demoUrl:"https://github.com/jaypee15/lux-rss",
+        codeUrl:"https://github.com/jaypee15/lux-rss",
   }
 ]
   return (
