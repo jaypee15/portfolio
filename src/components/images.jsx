@@ -18,7 +18,7 @@ export const TweeterImg = () => (
   <img src="/my-portfolio/tweeter.jpg" alt="tweeter screenshot" />
 );
 export const LuxovantImg = () => (
-  <img src="/portfolio/luxovant-screenshot.png" alt="chatboxx screenshot" />
+  <img src="/portfolio/luxovant-screenshot.png" alt=":Luxovant screenshot" />
 );
 export const EdieImg = () => (
   <img src="/my-portfolio/edie.jpg" alt="edie homepage" />
@@ -26,20 +26,20 @@ export const EdieImg = () => (
 export const PortfolioImg = () => (
   <img src="/my-portfolio/portfolio.jpg" alt="edie homepage" />
 );
-export const WindBnBImg = () => (
-  <img src="/my-portfolio/windbnb.jpg" alt="WindBnB screenshot" />
+export const AnaTImg = () => (
+  <img src="/portfolio/AnaT.png" alt="Ana Thompson screenshot" />
 );
 export const InteriorImg = () => (
   <img src="/my-portfolio/interior-decor.jpg" alt="interior screenshot" />
 );
-export const HuddleImg = () => (
-  <img src="/my-portfolio/huddle.jpg" alt="huddle screenshot" />
+export const BarcFSTImg = () => (
+  <img src="portfolio/barcfst.png" alt="huddle screenshot" />
 );
 export const GalleryImg = () => (
   <img src="/my-portfolio/gallery.jpg" alt="gallery screenshot" />
 );
-export const CheckoutImg = () => (
-  <img src="/my-portfolio/checkout.jpg" alt="checkout screenshot" />
+export const ProductImg = () => (
+  <img src="portfolio/nikeproductpage.png" alt="product page screenshot" />
 );
 export const SimplePlaylistImg = () => (
   <img

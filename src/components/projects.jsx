@@ -5,15 +5,12 @@ import {
   StudyroomsImg,
  
     LuxovantImg,
-    TweeterImg,
-    SimplePlaylistImg,
-    PortfolioImg,
-    WindBnBImg,
-    HuddleImg,
+    AnaTImg,
+    BarcFSTImg,
     EdieImg,
     InteriorImg,
     GalleryImg,
-    CheckoutImg,
+    ProductImg,
   } from "./images";
 
 const ProjectCard = ({
@@ -87,32 +84,32 @@ export const ProjectCards = () => {
   },
  
   {
-    image:<WindBnBImg/>,
-    type:"windbnb",
-        title:"WindBnB",
-        desc:"An AirBnB inspired website demo.",
-        tags:["React"],
-        demoUrl:"https://csb-jgr6d1.netlify.app/",
-        codeUrl:"https://github.com/jaypee15/lux-rss",
+    image:<AnaTImg/>,
+    type:"AnaT",
+        title:"Ana Thompson",
+        desc:"Personal Website built for a stock brocker",
+        tags:["HTML", "CSS", "JavaScript"],
+        demoUrl:"https://jaypee15.github.io/Anna-T/",
+        codeUrl:"https://github.com/jaypee15/Anna-T",
   },
   {
-    image:<HuddleImg/>,
-    type:"huddle",
-        title:"Huddle Landing Page demo",
-        desc:"Huddle Landing page clone",
-        tags:["HTML", "CSS"],
-        demoUrl:"https://github.com/jaypee15/lux-rss",
-        codeUrl:"https://github.com/jaypee15/lux-rss",
+    image:<BarcFSTImg/>,
+    type:"BarcFST",
+        title:"Barclays FST",
+        desc:"A website that allows users to trade stocks, foreign exchange, and crypto. ",
+        tags:["HTML", "CSS", "JavaScript"],
+        demoUrl:"https://jaypee15.github.io/barcfst-clone/",
+        codeUrl:"https://github.com/jaypee15/barcfst-clone",
   },
  
   {
-    image:<CheckoutImg/>,
-    type:"checkout",
-        title:"Checkout Page",
-        desc:"Checkout page for a fictional E-Commerce site",
+    image:<ProductImg/>,
+    type:"product",
+        title:"Product Page",
+        desc:"Product page for a fictional Nike site",
         tags:["HTML", "CSS"],
-        demoUrl:"https://github.com/jaypee15/lux-rss",
-        codeUrl:"https://github.com/jaypee15/lux-rss",
+        demoUrl:"https://jaypee15.github.io/Product-page/",
+        codeUrl:"https://github.com/jaypee15/Product-page",
   }
 ]
   return (
