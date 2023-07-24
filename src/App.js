@@ -54,7 +54,7 @@ function App() {
           <SectionDivider title="Services" desc="" />
           <div className="service-container">
             <div className="card-counter">
-              <p>{sCardCounter}/5</p>
+              <p>{sCardCounter}/3</p>
             </div>
             <div className="service-card-container" onScroll={sCounterHandler}>
               <ServiceCards />
@@ -69,7 +69,7 @@ function App() {
           />
           <div className="project-container">
             <div className="card-counter">
-              <p>{pCardCounter}/14</p>
+              <p>{pCardCounter}/6</p>
             </div>
             <div className="project-card-container" onScroll={pCounterHandler}>
               <ProjectCards />
