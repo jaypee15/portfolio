@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.bf153f37.css",
-    "main.js": "/portfolio/static/js/main.5128e006.js",
+    "main.js": "/portfolio/static/js/main.d8bef672.js",
     "static/media/image (1).png": "/portfolio/static/media/image (1).26ae55a3bda7a6f466bc.png",
     "static/media/Django Resume.pdf": "/portfolio/static/media/Django Resume.b6f55536a043c2b988e0.pdf",
     "static/media/saira-semi-condensed-all-600-normal.woff": "/portfolio/static/media/saira-semi-condensed-all-600-normal.af2ea2213c9fd134ab39.woff",
@@ -18,10 +18,10 @@
     "static/media/saira-vietnamese-600-normal.woff2": "/portfolio/static/media/saira-vietnamese-600-normal.7351d7d4c43c6f868fae.woff2",
     "index.html": "/portfolio/index.html",
     "main.bf153f37.css.map": "/portfolio/static/css/main.bf153f37.css.map",
-    "main.5128e006.js.map": "/portfolio/static/js/main.5128e006.js.map"
+    "main.d8bef672.js.map": "/portfolio/static/js/main.d8bef672.js.map"
   },
   "entrypoints": [
     "static/css/main.bf153f37.css",
-    "static/js/main.5128e006.js"
+    "static/js/main.d8bef672.js"
   ]
 }
