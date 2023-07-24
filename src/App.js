@@ -24,8 +24,8 @@ function App() {
     const position = e.target.scrollLeft;
     const percentage = Math.floor((position / width) * 3);
     setTimeout(() => {
-      if (percentage > 4) {
-        setSCardCounter(4);
+      if (percentage > 2) {
+        setSCardCounter(3);
       } else {
         setSCardCounter(percentage);
       }
