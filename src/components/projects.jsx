@@ -1,6 +1,6 @@
 import React from "react";
 import {
-    LoycyImg,
+  DjangoChatbotImg ,
   ExbImg,
   StudyroomsImg,
  
@@ -67,7 +67,7 @@ export const ProjectCards = () => {
   },
   
   {
-    image:<LoycyImg/>,
+    image:<DjangoChatbotImg />,
     type:"chatbot",
     title:"Django AI assistant",
     desc:"Chatbot and AI assistant built on the Openai API",

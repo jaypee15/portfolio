@@ -1,11 +1,11 @@
 import React from "react";
 
 
-export const LoycyImg = () => (
-  <img src="/my-portfolio/loycy-engineering.jpg" alt="loycy-engineering screenshot" />
+export const DjangoChatbotImg = () => (
+  <img src="portfolio/django-chatbot.png" alt="Django Chatbot Screenshot" />
 );
 export const StudyroomsImg = () => (
-  <img src="../assets/Study Rooms home.png" alt="Study Rooms web app homepage" />
+  <img src="portfolio/Study Rooms home.png" alt="Study Rooms web app homepage" />
 
 );
 export const QuickrpayImg = () => (
