@@ -53,9 +53,9 @@ const Hero = () => {
             </h1>
           </div>
           <p className="hero-sub-1-desc type5">
-            I’m a software developer with over 4 years of experience and I love
-            building stuff for the web. Over the years I’ve garnered great
-            skills with which I deliver a variety of services on Front-end/Back-end Development 
+          I'm a software developer with over 2 years of experience in building web applications. 
+          I have a passion for delivering high-quality, user-friendly products, 
+          and I'm proficient in a variety of front-end and back-end technologies.
           </p>
         </div>
         <a
