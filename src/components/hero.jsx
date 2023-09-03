@@ -9,8 +9,9 @@ import {
   GithubIcon,
 } from "./svgs";
 const titles = [
+  "Django \n Developer",
+  "Python \n Developer",
   "Fullstack Web \n Developer",
-  "Front-End \n Developer",
   "Back-End \n Developer",
 ];
 function formatTitle(text) {
@@ -46,7 +47,7 @@ const Hero = () => {
     <div className="hero-section">
       <div className="hero-sub-1">
         <div className="hero-sub-container">
-          <h4 className="hero-sub-1-intro">Hi I’m Okoye Johnpaul,</h4>
+          <h4 className="hero-sub-1-intro">Hi, I’m Okoye Johnpaul,</h4>
           <div className="hero-sub-1-titles">
             <h1 className={`hero-title ${toggleAnim && "pre-animation"}`}>
               {formatTitle(title)}
