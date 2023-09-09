@@ -1,3 +1,0 @@
-badge- wrap text along new line
-recommendation engine
-task queue
