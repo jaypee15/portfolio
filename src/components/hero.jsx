@@ -54,9 +54,11 @@ const Hero = () => {
             </h1>
           </div>
           <p className="hero-sub-1-desc type5">
-          I'm a software developer with over 2 years of experience in building web applications. 
-          I have a passion for delivering high-quality, user-friendly products, 
-          and I'm proficient in a variety of front-end and back-end technologies.
+          I'm a software developer passionate about shaping digital experiences. 
+          Adept in crafting robust server-side logic and seamless API interactions, 
+          I bring efficiency to authentication, authorization, data management and server configuration. 
+          My commitment to security ensures applications withstand potential threats. 
+          I'm driven to build scalable solutions for a dynamic digital landscape. 
           </p>
         </div>
         <a
@@ -67,21 +69,22 @@ const Hero = () => {
           Download Resume
         </a>
         <div className="hero-sub-1-icons">
-          <a href="http://twitter.com/johnofpaul" target="_blank">
+          <a href="http://twitter.com/johnofpaul" target="_blank" rel="noreferrer">
             <TwitterIcon />
           </a>
-          <a href="https://github.com/jayee15" target="_blank">
+          <a href="https://github.com/jayee15" target="_blank" rel="noreferrer">
             <GithubIcon />
           </a>
-          <a href="mailto:okoyejohnpaul15@gmail.com?" target="_blank">
+          <a href="mailto:okoyejohnpaul15@gmail.com?" target="_blank" rel="noreferrer">
             <MailIcon />
           </a>
-          <a href="https://wa.me/2348171851665" target="_blank">
+          <a href="https://wa.me/2348171851665" target="_blank" rel="noreferrer">
             <WhatsappIcon />
           </a>
           <a
             href="https://www.linkedin.com/in/johnpaulokoye"
             target="_blank"
+            rel="noreferrer"
           >
             <LinkedInIcon />
           </a>
