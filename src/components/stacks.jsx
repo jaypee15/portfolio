@@ -9,6 +9,8 @@ import {
   PostgreSQLIcon,
   LinuxIcon,
   GitIcon,
+  FastAPIIcon,
+  NodeJsIcon,
 } from "./svgs";
 
 const stackArray = [
@@ -21,6 +23,8 @@ const stackArray = [
   "PostgreSQL",
   "Linux",
   "Git",
+  "FastAPI",
+  "NodeJs",
   
 
 ];
@@ -49,10 +53,15 @@ const Stack = ({ type }) => {
       : type === "Git" ? (
         <GitIcon />
       ) 
-      
-       : (
+      : type === "FastAPI" ? (
+        <FastAPIIcon />
+      )
+      : type === "NodeJs" ? (
+        <NodeJsIcon />
+      ): (
         <DjangoIcon />
-      )}
+      )
+      }
       <span className="stack-title">{type}</span>
     </div>
   );
