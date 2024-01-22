@@ -1,20 +1,18 @@
 import React from "react";
-import { DesignIcon, CodeIcon, DatabaseIcon, ChartIcon, WPIcon } from "./svgs";
+import {DatabaseIcon, CodeIcon,SecurityIcon, IntegrationIcon,} from "./svgs";
 
 const ServiceCard = ({ type, title, desc }) => {
   return (
     <div className="service-card">
       <div className="service-card-icon">
-        {type === "design" ? (
-          <DesignIcon />
-        ) : type === "frontend" ? (
-          <CodeIcon />
-        ) : type === "backend" ? (
+        {type === "server-side" ? (
           <DatabaseIcon />
-        ) : type ===  "seo" ? (
-          <ChartIcon />
-        ) : (
-          <WPIcon />
+        ) : type === "security" ? (
+          <SecurityIcon />
+        ) : type === "integration" ? (
+          <IntegrationIcon />
+        )  : (
+          <CodeIcon />
         )}
       </div>
       <h3>{title}</h3>
@@ -26,19 +24,25 @@ export const ServiceCards = () => {
   return (
     <>
       <ServiceCard
-        type="design"
-        title="Web Design"
-        desc="Modern, visually appealing and responsive website designs for various screen sizes."
+        type="server-side"
+        title="Server-Side Expertise"
+        desc="Logic Implementation: Skilled in developing server-side logic for authentication, authorization, and business processes.
+        API Creation: Proficient in building APIs to ensure smooth communication between frontend and backend.
+        Database Management: Adept in designing and optimizing databases for efficient data storage and retrieval."
       />
       <ServiceCard
-        type="frontend"
-        title="Front-End Development"
-        desc="Build interactive UI from designs while optimizing for performance. Integrate Backend APIs."
+        type="security"
+        title="Security and Optimization"
+        desc="Security Measures: Adept at implementing security protocols, protecting applications from common vulnerabilities.
+        Optimization: Specialized in optimizing server-side code and database queries for enhanced application performance.
+        Logging and Monitoring: Skilled in setting up logging and monitoring tools for swift issue identification and resolution."
       />
       <ServiceCard
-        type="backend"
-        title="Back-End Development"
-        desc="Build high quality APIs, Efficient Database Strategy and a secure Backend."
+        type="integration"
+        title="Integration and deployment"
+        desc="Server Configuration: Proficient in configuring and managing servers, selecting suitable hosting solutions, and ensuring seamless application deployment.
+        Third-Party Integration: Skilled at integrating external services, APIs, and libraries to augment application functionality.
+        Scalability Planning: interested in designing scalable systems, caching, and horizontal scaling."
       />
       
     </>
