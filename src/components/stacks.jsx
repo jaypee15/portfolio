@@ -11,6 +11,7 @@ import {
   GitIcon,
   FastAPIIcon,
   NodeJsIcon,
+  MongoDBIcon,
 } from "./svgs";
 
 const stackArray = [
@@ -25,6 +26,7 @@ const stackArray = [
   "Git",
   "FastAPI",
   "NodeJs",
+  "MongoDB",
   
 
 ];
@@ -58,7 +60,10 @@ const Stack = ({ type }) => {
       )
       : type === "NodeJs" ? (
         <NodeJsIcon />
-      ): (
+      )
+      : type === "MongoDB" ? (
+        <MongoDBIcon />
+      ) : (
         <DjangoIcon />
       )
       }
