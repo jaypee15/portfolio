@@ -1,16 +1,11 @@
 import React from "react";
 import {
   DjangoChatbotImg ,
-  ExbImg,
   StudyroomsImg,
- 
-    LuxovantImg,
-    AnaTImg,
-    BarcFSTImg,
-    EdieImg,
-    InteriorImg,
-    GalleryImg,
-    ProductImg,
+  LuxovantImg,
+  AnaTImg,
+  BarcFSTImg,
+  ProductImg,
   } from "./images";
 
 const ProjectCard = ({
@@ -39,10 +34,10 @@ const ProjectCard = ({
         ))}
       </div>
       <div className="project-card-links type6">
-        <a href={demoUrl} target="_blank">
+        <a href={demoUrl} target="_blank" rel='noreferrer'>
           Demo
         </a>
-        <a href={codeUrl} target="_blank">
+        <a href={codeUrl} target="_blank" rel='noreferrer'>
           &#60;Code&#47;&#62;
         </a>
       </div>
