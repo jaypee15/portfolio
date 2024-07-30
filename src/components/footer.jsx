@@ -17,21 +17,22 @@ const Footer = () => {
         </p>
       </div>
       <div className="footer-icons">
-        <a href="http://twitter.com/johnofpaul" target="_blank">
+        <a href="http://twitter.com/johnofpaul" target="_blank" rel="noreferrer">
           <TwitterIcon />
         </a>
-        <a href="https://github.com/jaypee15" target="_blank">
+        <a href="https://github.com/jaypee15" target="_blank" rel="noreferrer">
           <GithubIcon />
         </a>
-        <a href="mailto:okoyejohnpaul15@gmail.com?" target="_blank">
+        <a href="mailto:okoyejohnpaul15@gmail.com?" target="_blank" rel="noreferrer">
           <MailIcon />
         </a>
-        <a href="https://wa.me/2349050741851" target="_blank">
+        <a href="https://wa.me/2349050741851" target="_blank" rel="noreferrer">
           <WhatsappIcon />
         </a>
         <a
           href="https://www.linkedin.com/in/johnpaulokoye"
           target="_blank"
+          rel="noreferrer"
         >
           <LinkedInIcon />
         </a>

@@ -2,10 +2,10 @@ import React from "react";
 import {
   DjangoChatbotImg ,
   StudyroomsImg,
-  LuxovantImg,
-  AnaTImg,
-  BarcFSTImg,
-  ProductImg,
+  EvotingImg,
+  ColorizeImg,
+  SocialImg,
+  ShoesJetImg
   } from "./images";
 
 const ProjectCard = ({
@@ -49,19 +49,27 @@ const ProjectCard = ({
 export const ProjectCards = () => {
   const projects=[
   {
+    image:<ShoesJetImg/>,
+    type:"shoes Jet",
+    title:"Shoes Jet Ecommerce Application",
+    desc:"The application provides a seamless online shopping experience for users looking to purchase shoes. The platform includes features like product browsing, searching, filtering, user authentication, shopping cart, favourites and orders.",
+    tags:["NodeJs", "JavaScript", "MongoDB"],
+    demoUrl:"https://shoes-jet.vercel.app/",
+    codeUrl:"https://github.com/jaypee15/nextgen-shoes-ecommerce-backend",
+  },
+  {
     image:<StudyroomsImg/>,
     type:"study rooms",
-    title:"Study Rooms social media app",
+    title:"Study Rooms networking app",
     desc:"A virtual study hangout for students. Imagine being able to create or jump into study 'rooms' based on topics you're into – from coding to history. It's all about connecting with persons who share your vibe and studying together in a way that's relaxed and collaborative. Say goodbye to solo cram sessions and hello to a community of learners.",
     tags:["DJango", "Python", "SQLite"],
     demoUrl:"https://study-rooms.onrender.com",
     codeUrl:"https://github.com/jaypee15/study_rooms",
   },
-  
   {
     image:<DjangoChatbotImg />,
     type:"chatbot",
-    title:"Django AI assistant",
+    title:"Django AI Assistant",
     desc:"It's like having a virtual sidekick to help you with tasks, answer questions, and just make life a bit easier. Whether you need quick info or a hand with daily stuff, this bot's got your back. Let's make life simpler and a tad more fun with a touch of AI magic! ✨",
     tags:["Django", "Python", "GPT-3.5-turbo"],
     demoUrl:"https://django-chatapp-wm7h.onrender.com/",
@@ -69,43 +77,34 @@ export const ProjectCards = () => {
   },
  
   {
-    image:<LuxovantImg/>,
-    type:"Luxovant",
-    title:"Content aggregator",
-    desc:"The Entrepreneurial Insight Hub! 🚀 Say goodbye to the endless web scroll for the hottest news – this platform does the heavy lifting for entrepreneurs. Using clever RSS feeds and a dash of scraping magic, it serves up the juiciest content directly to you. Stay in the loop effortlessly with curated news, market trends, and industry gold. No more hassle, just the good stuff to fuel your hustle. Stay savvy and crush it! 💼✨",
-    tags:["Django", "React", "FeedParser", ],
-    demoUrl:"https://github.com/jaypee15/lux-rss",
-    codeUrl:"https://github.com/jaypee15/lux-rss",
+    image:<EvotingImg/>,
+    type:"E-voting",
+    title:"Electronic Voting Application API",
+    desc:"A secure and scalable e-voting application built with Node.js and Express. The application allows users to cast votes electronically, ensuring integrity, transparency, and anonymity in the voting process.",
+    tags:["NodeJs", "JavaScript", "MongoDB", ],
+    demoUrl:"https://e-voting-amber.vercel.app/",
+    codeUrl:"https://github.com/jaypee15/E-voting",
   },
  
   {
-    image:<AnaTImg/>,
-    type:"AnaT",
-        title:"Ana Thompson website",
-        desc:"a personal website for a kick-ass stock broker! 🚀 Dive into real-time market vibes, get insider tips, and peek into the broker's winning portfolio. It's where finance meets flair!",
-        tags:["HTML", "CSS", "JavaScript"],
-        demoUrl:"https://jaypee15.github.io/Anna-T/",
-        codeUrl:"https://github.com/jaypee15/Anna-T",
+    image:<ColorizeImg/>,
+    type:"colorize",
+        title:"Colorize",
+        desc:"An AI-powered image colorization app that transforms black and white images into vibrant, lifelike masterpieces. Using the ddcolor model, it colorizes images in a matter of seconds.",
+        tags:["Django","JavaScript","ddcolor Model"],
+        demoUrl:"https://colorize-fc38.onrender.com",
+        codeUrl:"https://github.com/jaypee15/colorize",
   },
   {
-    image:<BarcFSTImg/>,
-    type:"BarcFST",
-        title:"Barclays FST",
-        desc:"Dive into the world of stocks, forex, and crypto. Swap stocks, dance with foreign exchange, and ride the crypto wave, all in one chill place. It's like having a personal trader in your pocket, but cooler. Get real-time market vibes, make moves, and watch your portfolio grow.",
-        tags:["HTML", "CSS", "JavaScript"],
-        demoUrl:"https://jaypee15.github.io/barcfst-clone/",
-        codeUrl:"https://github.com/jaypee15/barcfst-clone",
+    image:<SocialImg/>,
+    type:"social",
+        title:"Social Media API",
+        desc:"The API provides a robust foundation for developing and extending social media applications with ease. Built with FASTAPI, it provides functionalities like CRUD operations for both Posts and Users plus the ability to like and unlike posts. ",
+        tags:["FASTAPI","Swagger-UI", "Open API" ],
+        demoUrl:"https://fastapi-social.onrender.com/docs",
+        codeUrl:"https://github.com/jaypee15/fastapi-socialmedia",
   },
  
-  {
-    image:<ProductImg/>,
-    type:"product",
-        title:"Product Page",
-        desc:"Step into the future of footwear with my sleek and stylish Nike AirFlow Landing Page. Explore the ultimate blend of modern design and comfort, showcasing a fictional Nike masterpiece.",
-        tags:["HTML", "CSS"],
-        demoUrl:"https://jaypee15.github.io/Product-page/",
-        codeUrl:"https://github.com/jaypee15/Product-page",
-  }
 ]
   return (
     <>

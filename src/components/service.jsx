@@ -16,7 +16,8 @@ const ServiceCard = ({ type, title, desc }) => {
         )}
       </div>
       <h3>{title}</h3>
-      <p className="type5">{desc}</p>
+      {/* <p className="type5">{desc}</p> */}
+      <p className="type5" dangerouslySetInnerHTML={{ __html: desc }}></p>
     </div>
   );
 };
@@ -26,23 +27,23 @@ export const ServiceCards = () => {
       <ServiceCard
         type="server-side"
         title="Server-Side Expertise"
-        desc="Logic Implementation: Skilled in developing server-side logic for authentication, authorization, and business processes.
-        API Creation: Proficient in building APIs to ensure smooth communication between frontend and backend.
-        Database Management: Adept in designing and optimizing databases for efficient data storage and retrieval."
+        desc="<strong>Logic Implementation:</strong> Skilled in developing server-side logic for authentication, authorization, and business processes.
+        <strong>API Creation:</strong> Proficient in building APIs to ensure smooth communication between frontend and backend.
+        <strong>Database Management:</strong> Adept in designing and optimizing databases for efficient data storage and retrieval."
       />
       <ServiceCard
         type="security"
         title="Security and Optimization"
-        desc="Security Measures: Adept at implementing security protocols, protecting applications from common vulnerabilities.
-        Optimization: Specialized in optimizing server-side code and database queries for enhanced application performance.
-        Logging and Monitoring: Skilled in setting up logging and monitoring tools for swift issue identification and resolution."
+        desc="<strong>Security Measures:</strong> Adept at implementing security protocols, protecting applications from common vulnerabilities.
+        <strong>Optimization:</strong> Specialized in optimizing server-side code and database queries for enhanced application performance.
+        <strong>Logging and Monitoring:</strong> Skilled in setting up logging and monitoring tools for swift issue identification and resolution."
       />
       <ServiceCard
         type="integration"
         title="Integration and deployment"
-        desc="Server Configuration: Proficient in configuring and managing servers, selecting suitable hosting solutions, and ensuring seamless application deployment.
-        Third-Party Integration: Skilled at integrating external services, APIs, and libraries to augment application functionality.
-        Scalability Planning: interested in designing scalable systems, caching, and horizontal scaling."
+        desc="<strong>Server Configuration:</strong> Proficient in configuring and managing servers, selecting suitable hosting solutions, and ensuring seamless application deployment.
+        <strong>Third-Party Integration:</strong> Skilled at integrating external services, APIs, and libraries to augment application functionality.
+        <strong>Scalability Planning:</strong> interested in designing scalable systems, caching, and horizontal scaling."
       />
       
     </>

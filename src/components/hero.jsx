@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import Resume from "../assets/PythonDjangoResume.pdf";
+import Modal from "react-modal";
+import Resume from "../assets/NodeJSResume.pdf";
 import portrait from "../assets/image (1).png";
 import {
   TwitterIcon,
@@ -8,18 +9,25 @@ import {
   LinkedInIcon,
   GithubIcon,
 } from "./svgs";
+
 const titles = [
-  "Django \n Developer",
-  "Python \n Developer",
+  "NodeJs \n Developer",
+  "JavaScript \n Developer",
   "Fullstack Web \n Developer",
   "Back-End \n Developer",
+  "Django \n Developer",
+  "Python \n Developer",
 ];
+
 function formatTitle(text) {
   return text.split(/\n+/).map((title, index) => <p key={index}>{title}</p>);
 }
+
 const Hero = () => {
   const [title, setTitle] = useState(titles[0]);
   const [toggleAnim, setToggleAnim] = useState(false);
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+
   useEffect(() => {
     const insertAnim = setTimeout(() => {
       setToggleAnim(false);
@@ -43,6 +51,9 @@ const Hero = () => {
     };
   }, [title]);
 
+  const openModal = () => setModalIsOpen(true);
+  const closeModal = () => setModalIsOpen(false);
+
   return (
     <div className="hero-section">
       <div className="hero-sub-1">
@@ -54,13 +65,18 @@ const Hero = () => {
             </h1>
           </div>
           <p className="hero-sub-1-desc type5">
-          I'm a software developer passionate about shaping digital experiences. 
-          Adept in crafting robust server-side logic and seamless API interactions, 
-          I bring efficiency to authentication, authorization, data management and server configuration. 
-          My commitment to security ensures applications withstand potential threats. 
-          I'm driven to build scalable solutions for a dynamic digital landscape. 
+            I'm a software developer passionate about shaping digital experiences. 
+            Adept in crafting robust server-side logic and seamless API interactions, 
+            I bring efficiency to authentication, authorization, data management, and server configuration. 
+            My commitment to security ensures applications withstand potential threats. 
+            I'm driven to build scalable solutions for a dynamic digital landscape. 
           </p>
         </div>
+
+        <div className="hero-sub-1-buttons">
+        <button className="hero-sub-1-resume" onClick={openModal}>
+          View Resume
+        </button>
         <a
           href={Resume}
           className="hero-sub-1-resume"
@@ -68,6 +84,12 @@ const Hero = () => {
         >
           Download Resume
         </a>
+        </div>
+        
+        <Modal isOpen={modalIsOpen} onRequestClose={closeModal} className="hero-sub-1-modal">
+          <button onClick={closeModal}>Close</button>
+          <iframe src={Resume} width="100%" height="600px" title="Resume"></iframe>
+        </Modal>
         <div className="hero-sub-1-icons">
           <a href="http://twitter.com/johnofpaul" target="_blank" rel="noreferrer">
             <TwitterIcon />

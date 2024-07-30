@@ -81,7 +81,7 @@ function App() {
         <div className="section stack-section">
           <SectionDivider
             title="Tech Stack"
-            desc="Frameworks and Languages"
+            desc="Languages and Frameworks"
           />
           <Stacks />
         </div>

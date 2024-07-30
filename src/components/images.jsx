@@ -9,17 +9,17 @@ export const StudyroomsImg = () => (
 
 );
 
-export const LuxovantImg = () => (
-  <img src="/portfolio/luxovant-screenshot.png" alt=":Luxovant screenshot" />
+export const EvotingImg = () => (
+  <img src="/portfolio/e-voting.jpeg" alt=":E voting-application screenshot" />
 );
 
-export const AnaTImg = () => (
-  <img src="/portfolio/AnaT.png" alt="Ana Thompson screenshot" />
-);
 
-export const BarcFSTImg = () => (
-  <img src="/portfolio/barcfst.png" alt="huddle screenshot" />
+export const ColorizeImg = () => (
+  <img src="/portfolio/colorize.png" alt="Colorize screenshot" />
 );
-export const ProductImg = () => (
-  <img src="/portfolio/nikeproductpage.png" alt="product page screenshot" />
+export const SocialImg = () => (
+  <img src="/portfolio/fastapi-social.png" alt="FAstAPI Social API screenshot" />
+);
+export const ShoesJetImg = () => (
+  <img src="/portfolio/shoes-jet.vercel.app.png" alt="Shoes Jet screenshot" />
 );
