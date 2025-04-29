@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.847b265a.css",
-    "main.js": "/portfolio/static/js/main.c14fd44d.js",
+    "main.js": "/portfolio/static/js/main.97c63f50.js",
     "static/media/image (1).png": "/portfolio/static/media/image (1).26ae55a3bda7a6f466bc.png",
-    "static/media/NodeJSResume.pdf": "/portfolio/static/media/NodeJSResume.a00f85da25d4c7ebac31.pdf",
+    "static/media/NodeJSResume.pdf": "/portfolio/static/media/NodeJSResume.f094367640f5aa44ca5d.pdf",
     "static/media/saira-semi-condensed-all-600-normal.woff": "/portfolio/static/media/saira-semi-condensed-all-600-normal.af2ea2213c9fd134ab39.woff",
     "static/media/saira-semi-condensed-all-400-normal.woff": "/portfolio/static/media/saira-semi-condensed-all-400-normal.2248cc2ca7f25d0c9f0a.woff",
     "static/media/saira-all-600-normal.woff": "/portfolio/static/media/saira-all-600-normal.8ab9dc89091eca9e6bc6.woff",
@@ -18,10 +18,10 @@
     "static/media/saira-vietnamese-600-normal.woff2": "/portfolio/static/media/saira-vietnamese-600-normal.7351d7d4c43c6f868fae.woff2",
     "index.html": "/portfolio/index.html",
     "main.847b265a.css.map": "/portfolio/static/css/main.847b265a.css.map",
-    "main.c14fd44d.js.map": "/portfolio/static/js/main.c14fd44d.js.map"
+    "main.97c63f50.js.map": "/portfolio/static/js/main.97c63f50.js.map"
   },
   "entrypoints": [
     "static/css/main.847b265a.css",
-    "static/js/main.c14fd44d.js"
+    "static/js/main.97c63f50.js"
   ]
 }
