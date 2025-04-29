@@ -1,8 +1,8 @@
 import React from "react";
 
 
-export const DjangoChatbotImg = () => (
-  <img src="/portfolio/django-chatbot.png" alt="Django Chatbot Screenshot" />
+export const RideByImg = () => (
+  <img src="/portfolio/ride-by.png" alt="Ride-By " />
 );
 export const StudyroomsImg = () => (
   <img src="/portfolio/Study Rooms home.png" alt="Study Rooms web app homepage" />
@@ -14,8 +14,8 @@ export const EvotingImg = () => (
 );
 
 
-export const ColorizeImg = () => (
-  <img src="/portfolio/colorize.png" alt="Colorize screenshot" />
+export const GeoScopeImg = () => (
+  <img src="/portfolio/geoscope.png" alt="GeoScope" />
 );
 export const SocialImg = () => (
   <img src="/portfolio/fastapi-social.png" alt="FAstAPI Social API screenshot" />

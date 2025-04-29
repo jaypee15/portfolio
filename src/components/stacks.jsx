@@ -15,6 +15,7 @@ import {
   NestJsIcon,
   ExpressJsIcon,
   TypeScriptIcon,
+  RustIcon,
 } from "./svgs";
 
 const stackArray = [
@@ -33,6 +34,7 @@ const stackArray = [
   "Express Js",
   "Nest Js",
   "MongoDB",
+  "Rust",
   
 
 ];
@@ -78,6 +80,9 @@ const Stack = ({ type }) => {
       )
       : type === "MongoDB" ? (
         <MongoDBIcon />
+      )
+      : type === "Rust" ? (
+          <RustIcon />
       ) : (
         <DjangoIcon />
       )

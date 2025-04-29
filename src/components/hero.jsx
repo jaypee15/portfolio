@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
 import Resume from "../assets/NodeJSResume.pdf";
-import portrait from "../assets/image (1).png";
+import portrait from "../assets/potrait.png";
 import {
   TwitterIcon,
   MailIcon,
@@ -11,12 +11,12 @@ import {
 } from "./svgs";
 
 const titles = [
+  "Backend \n Developer",
   "NodeJs \n Developer",
+  "Backend \n Developer",
   "JavaScript \n Developer",
-  "Fullstack Web \n Developer",
-  "Back-End \n Developer",
-  "Django \n Developer",
-  "Python \n Developer",
+  "Fullstack \n Developer",
+  "Backend \n Developer",
 ];
 
 function formatTitle(text) {
@@ -58,7 +58,7 @@ const Hero = () => {
     <div className="hero-section">
       <div className="hero-sub-1">
         <div className="hero-sub-container">
-          <h4 className="hero-sub-1-intro">Hi, I’m Okoye Johnpaul,</h4>
+          <h4 className="hero-sub-1-intro">Hi, I’m Johnpaul Okoye,</h4>
           <div className="hero-sub-1-titles">
             <h1 className={`hero-title ${toggleAnim && "pre-animation"}`}>
               {formatTitle(title)}

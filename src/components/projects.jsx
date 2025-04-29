@@ -1,9 +1,9 @@
 import React from "react";
 import {
-  DjangoChatbotImg ,
+  RideByImg ,
   StudyroomsImg,
   EvotingImg,
-  ColorizeImg,
+  GeoScopeImg,
   SocialImg,
   ShoesJetImg
   } from "./images";
@@ -51,7 +51,7 @@ export const ProjectCards = () => {
   {
     image:<ShoesJetImg/>,
     type:"shoes Jet",
-    title:"Shoes Jet Ecommerce Application",
+    title:"Shoes Jet - Ecommerce Application - shoes and all",
     desc:"The application provides a seamless online shopping experience for users looking to purchase shoes. The platform includes features like product browsing, searching, filtering, user authentication, shopping cart, favourites and orders.",
     tags:["NodeJs", "JavaScript", "MongoDB"],
     demoUrl:"https://shoes-jet.vercel.app/",
@@ -67,13 +67,13 @@ export const ProjectCards = () => {
     codeUrl:"https://github.com/jaypee15/study_rooms",
   },
   {
-    image:<DjangoChatbotImg />,
-    type:"chatbot",
-    title:"Django AI Assistant",
-    desc:"It's like having a virtual sidekick to help you with tasks, answer questions, and just make life a bit easier. Whether you need quick info or a hand with daily stuff, this bot's got your back. Let's make life simpler and a tad more fun with a touch of AI magic! ✨",
-    tags:["Django", "Python", "GPT-3.5-turbo"],
-    demoUrl:"https://django-chatapp-wm7h.onrender.com/",
-    codeUrl:"https://github.com/jaypee15/django-chatbot",
+    image:<RideByImg />,
+    type:"ride-by",
+    title:"Ride-By – Smarter, Friendlier Carpooling",
+    desc:"Think of Ride-By as your everyday travel buddy — connecting people, saving money, and making commutes smoother. Whether you're heading to work, class, or a quick trip across town, Ride-By makes it easy to find or share a ride. It’s convenient, community-driven, and built for the road ahead. 🚗💨",
+    tags:["NestJs", "NodeJs", "Redis"],
+    demoUrl:"https://traveazi.onrender.com/api/docs",
+    codeUrl:"https://github.com/jaypee15/ride-by",
   },
  
   {
@@ -87,20 +87,20 @@ export const ProjectCards = () => {
   },
  
   {
-    image:<ColorizeImg/>,
-    type:"colorize",
-        title:"Colorize",
-        desc:"An AI-powered image colorization app that transforms black and white images into vibrant, lifelike masterpieces. Using the ddcolor model, it colorizes images in a matter of seconds.",
-        tags:["Django","JavaScript","ddcolor Model"],
-        demoUrl:"https://colorize-fc38.onrender.com",
-        codeUrl:"https://github.com/jaypee15/colorize",
+    image:<GeoScopeImg/>,
+    type:"GeoScope",
+        title:"GeoScope – Effortless IP Intelligence",
+        desc:"An AI-poweredGeoScope is your smart, no-fuss IP lookup tool. Just plug in an IP address, and instantly get detailed, accurate geolocation data — from city and country to time zone and ISP. Whether you're building smarter apps or analyzing traffic, GeoScope has your back — no guesswork, just precision. 🌍📡 ",
+        tags:["Rust","Axum","GeoLite2City"],
+        demoUrl:"https://github.com/jaypee15/Geo-Crabby-IP",
+        codeUrl:"https://github.com/jaypee15/Geo-Crabby-IP",
   },
   {
     image:<SocialImg/>,
     type:"social",
         title:"Social Media API",
         desc:"The API provides a robust foundation for developing and extending social media applications with ease. Built with FASTAPI, it provides functionalities like CRUD operations for both Posts and Users plus the ability to like and unlike posts. ",
-        tags:["FASTAPI","Swagger-UI", "Open API" ],
+        tags:["FastAPI","Swagger", "Open API" ],
         demoUrl:"https://fastapi-social.onrender.com/docs",
         codeUrl:"https://github.com/jaypee15/fastapi-socialmedia",
   },
